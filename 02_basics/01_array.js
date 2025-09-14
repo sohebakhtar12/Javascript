@@ -63,7 +63,7 @@ console.log(allNewHero)
 
 console.log("--------------one array---------------------")
 
-const anotheArr=[5,9,8,[58,96,45],15,61,05,[8,9,7,4,5],0,0,0]
+const anotheArr=[5,9,8,[58,96,45],15,61,5,[8,9,7,4,5],0,0,0]
 const oneArr=anotheArr.flat(Infinity)
 console.log(oneArr)
 
