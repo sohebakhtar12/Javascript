@@ -44,7 +44,7 @@ console.log("--------------object methods--------------")
 // console.log(tinderUser)
 console.log(Object.keys(tinderUser))
 console.log(Object.values(tinderUser))
-console.log(Object.entries(tinderUser))
+console.log(Object.entries(tinderUser))  
 
 
 
@@ -70,3 +70,26 @@ const obj2={4:"d", 5:"y" , 6:"s"}
 const obj3={7:"o" , 8:"w" , 9:"x"}
 const obj4={...obj1,...obj2,...obj3}
 console.log(obj4)
+
+console.log("-----------Array ke Ander object-----------------")
+const user =[
+    {
+        id : 1,
+        email : "email_1"
+    },
+    {
+        id : 2,
+        email : "email_2"
+    },
+    {
+        id : 3,
+        email : "email_3"
+    },
+    {
+        id : 4,
+        email : "email_4"
+    }
+
+]
+
+console.log(user[3].email)
